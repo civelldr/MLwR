@@ -165,7 +165,7 @@ rm(list=ls())
 ##### Exploring and understanding data --------------------
 
 ## data exploration example using used car data
-usedcars <- read.csv("usedcars.csv", stringsAsFactors = FALSE)
+usedcars <- read.csv("./Chapter 02/usedcars.csv", stringsAsFactors = FALSE)
 
 # get structure of used car data
 str(usedcars)
